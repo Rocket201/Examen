@@ -23,9 +23,8 @@ document.addEventListener("DOMContentLoaded", function(){
           perímetro = 2*(longitud + ancho);
 
             salida2 .textContent= "Perímetro del rectángulo:" + perímetro;
-            //diagonal =  2*((longitud*2)+(ancho*2));
+            diagonal =  2*((longitud*2)+(ancho*2));
             //diagonal = Math. sqrt((longitud*2)+(ancho*2));
-
             salida3.textContent="Diagonal del rectángulo:" + diagonal;
 
         } else{
