@@ -15,10 +15,9 @@ document.addEventListener("DOMContentLoaded", function(){
           
         // Realizamos las operaciones pertinentes y generamos el area el perimetro y la diagonal.
             area = longitud * ancho;
-        /*Le decimos que salida necesita llamar desde el HTML en este caso la salida 1
-            se podria sacar todo por una única salida. */
+        /*Le decimos que salida necesita llamar desde el HTML en este caso la salida1 se podria sacar todo por una única salida. */
                 salida1.textContent= "Áreal del rectángulo:" + area;
-                
+
             perímetro = 2*(longitud + ancho);
 
                 salida2 .textContent= "Perímetro del rectángulo:" + perímetro;
@@ -30,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function(){
             // Finalmente la informacion la ha recibido el html y la ha mostrado.
         } else{
             // Cuando detecte que no hay valores válidos aparecerá este mensaje.
-                salida1.textContent="Introduce el Largo y el Ancho"
+                salida1.textContent="Introduce el Largo y el Ancho."
         }
      });
 
