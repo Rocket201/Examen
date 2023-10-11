@@ -1,0 +1,12 @@
+html{
+    padding: 2%;
+    text-align: center;
+    font-family: monospace;
+}
+
+.button{
+    color: #ffffff;
+    background-color: rgb(39, 86, 242);
+    padding: 10px;
+    border-radius: 3px;
+}
