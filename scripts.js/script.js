@@ -27,8 +27,10 @@ document.addEventListener("DOMContentLoaded", function(){
             //diagonal = Math. sqrt((longitud*2)+(ancho*2));
             salida3.textContent="Diagonal del rectángulo:" + diagonal;
 
+            // Finalmente la informacion la ha recibido el html y la ha mostrado
         } else{
-                salida1.textContent="introduce un dato válido"
+            // Cuando detecte que no hay valores válidos aparecera este mensaje
+                salida1.textContent="Introduce un dato válido"
         }
      });
 
